@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Cantarell, sans-serif;
+  background-color: #9fc1d9;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.navigation {
+  padding-block: 16px;
+  padding-inline: 24px;
+  background-color: #fff;
+
+  &__collection {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #000;
+  }
+
+  &__text {
+    padding-block: 4px;
+    padding-inline: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #fff;
+
+    &:hover {
+      border: 1px solid #000;
+      border-radius: 8px;
+    }
+  }
+}
+
+.main {
+  background-color: #9fc1d9;
+
+  &__title {
+    margin-block: 48px 64px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  &__card-collection {
+    display: grid;
+  }
+
+  &__card {
+    margin-bottom: 32px;
+    background-color: #fff;
+
+    &--text {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 32px 48px;
+  padding-inline: 24px;
+  background-color: #fff;
+
+  &__logo {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+  }
+}
