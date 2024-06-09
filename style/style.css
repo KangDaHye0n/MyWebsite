@@ -76,6 +76,7 @@ a {
   margin-bottom: 96px;
 }
 .main__card {
+  height: 480px;
   background-color: #fff;
   border-radius: 8px;
 }
