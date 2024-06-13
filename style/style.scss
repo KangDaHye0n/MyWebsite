@@ -24,7 +24,14 @@ a {
 
   &__collection {
     display: flex;
+    gap: 56px;
     justify-content: space-between;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   &__left {

@@ -23,7 +23,13 @@ a {
 }
 .navigation__collection {
   display: flex;
+  gap: 56px;
   justify-content: space-between;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+}
+.navigation__collection::-webkit-scrollbar {
+  display: none;
 }
 .navigation__left {
   display: flex;
