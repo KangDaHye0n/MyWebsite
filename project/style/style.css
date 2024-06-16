@@ -55,10 +55,6 @@ a {
   border-radius: 8px;
 }
 
-.main__text-collection {
-  margin-block: 48px 64px;
-  margin-inline: auto;
-}
 .main__title {
   font-size: 36px;
   font-weight: 700;
@@ -72,15 +68,16 @@ a {
   cursor: default;
 }
 .main__card-collection {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 24px 28px;
   padding-inline: 128px;
+  margin-top: 78px;
   margin-bottom: 96px;
 }
 .main__card {
-  position: relative;
+  display: block;
+  max-width: 320px;
   height: 480px;
+  margin-inline: auto;
+  margin-bottom: 48px;
   background-color: #fff;
   border-radius: 8px;
   transition: all 300ms ease-out;
