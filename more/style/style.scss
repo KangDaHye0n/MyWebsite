@@ -83,12 +83,13 @@ a {
   }
 
   &__search-collection {
+    padding-inline: 48px;
     margin-top: 48px;
   }
 
   &__searching {
     display: block;
-    width: 480px;
+    width: 40%;
     padding-block: 8px;
     padding-inline: 16px;
     margin-inline: auto;
@@ -96,7 +97,7 @@ a {
 
     &-m {
       display: block;
-      width: 480px;
+      width: 40%;
       height: 240px;
       padding-block: 8px;
       padding-inline: 16px;

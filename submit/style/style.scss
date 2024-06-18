@@ -61,7 +61,13 @@ a {
 }
 
 .main {
+  &__text-collection {
+    margin-inline: auto;
+    margin-bottom: 64px;
+  }
+
   &__title {
+    margin-bottom: 12px;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
@@ -69,47 +75,37 @@ a {
   }
 
   &__text {
+    margin-bottom: 36px;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     cursor: default;
   }
 
-  &__card-collection {
-    padding-inline: 48px;
-    margin-top: 78px;
-
-    // display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    // gap: 24px 28px;
-    margin-bottom: 96px;
-  }
-
-  &__card {
+  &__button {
     display: block;
-    min-width: 320px;
-    max-width: 320px;
-    height: 480px;
+    width: 150px;
+    padding-block: 8px;
+    padding-inline: 16px;
     margin-inline: auto;
-    margin-bottom: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 4px;
     transition: all 300ms ease-out;
-
-    &--text {
-      padding-block: 18px;
-      padding-inline: 24px;
-      font-size: 16px;
-      font-weight: 600;
-      text-align: center;
-      cursor: default;
-    }
 
     &:hover {
       color: #fff;
+      cursor: pointer;
       background-color: #7da8c7;
     }
   }
+}
+
+.lottie {
+  display: block;
+  margin-inline: auto;
 }
 
 .footer {

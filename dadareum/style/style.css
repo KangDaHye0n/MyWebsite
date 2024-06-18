@@ -55,51 +55,43 @@ a {
   border-radius: 8px;
 }
 
+.main {
+  margin-bottom: 96px;
+}
 .main__text-collection {
-  margin-block: 64px 128px;
+  margin-block: 48px 64px;
   margin-inline: auto;
 }
 .main__title {
-  margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
   cursor: default;
 }
-.main__text {
-  margin-bottom: 12px;
+.main__card {
+  padding-inline: 36px;
+}
+.main__card--img {
+  display: block;
+  height: 450px;
+  aspect-ratio: 4/5;
+  margin-inline: auto;
+  margin-bottom: 18px;
+  border: 3px solid #fff;
+}
+.main__card--text {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   cursor: default;
 }
-.main__search-collection {
-  padding-inline: 48px;
-  margin-top: 48px;
-}
-.main__searching {
+.main__card--text-a {
   display: block;
-  width: 40%;
+  width: 130px;
   padding-block: 8px;
   padding-inline: 16px;
   margin-inline: auto;
-  margin-bottom: 14px;
-}
-.main__searching-m {
-  display: block;
-  width: 40%;
-  height: 240px;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
-  margin-bottom: 14px;
-}
-.main__submit {
-  display: block;
-  width: 100px;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
+  margin-bottom: 24px;
   font-size: 14px;
   font-weight: 600;
   text-align: center;
@@ -107,7 +99,7 @@ a {
   border-radius: 4px;
   transition: all 300ms ease-out;
 }
-.main__submit:hover {
+.main__card--text-a:hover {
   color: #fff;
   cursor: pointer;
   background-color: #7da8c7;

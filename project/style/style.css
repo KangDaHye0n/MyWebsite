@@ -68,12 +68,13 @@ a {
   cursor: default;
 }
 .main__card-collection {
-  padding-inline: 128px;
+  padding-inline: 48px;
   margin-top: 78px;
   margin-bottom: 96px;
 }
 .main__card {
   display: block;
+  min-width: 320px;
   max-width: 320px;
   height: 480px;
   margin-inline: auto;

@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
@@ -70,21 +75,19 @@
       </div>
       <div class="section main">
         <div class="main__text-collection">
-          <div class="main__title">ILLUSTRATION</div>
-        </div>
-        <div class="main__card-collection">
-          <div class="main__card">
-            <div class="main__card--img"></div>
-            <div class="main__card--text">The Candle</div>
-          </div>
-          <div class="main__card">
-            <div class="main__card--img"></div>
-            <div class="main__card--text">My Childhood</div>
-          </div>
-          <div class="main__card">
-            <div class="main__card--img"></div>
-            <div class="main__card--text">Sunflower of The Rainy Day</div>
-          </div>
+          <dotlottie-player
+            id="lottie-1"
+            class="lottie"
+            src="https://lottie.host/8d6e0f6a-7854-4b5c-80ac-689979af94aa/FpdClgUXN1.json"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 400px"
+            loop
+            autoplay
+          ></dotlottie-player>
+          <div class="main__title">Submit Success</div>
+          <div class="main__text">Answer will comming soon..</div>
+          <a class="main__button" href="../more/idex.html">Return to Page</a>
         </div>
       </div>
       <div class="section footer">

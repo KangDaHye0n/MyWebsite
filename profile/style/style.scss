@@ -67,6 +67,7 @@ a {
   }
 
   &__title {
+    padding-bottom: 18px;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
@@ -74,10 +75,18 @@ a {
   }
 
   &__text {
+    padding-bottom: 8px;
     font-size: 20px;
     font-weight: 600;
     text-align: center;
     cursor: default;
+
+    &-c {
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      cursor: default;
+    }
   }
 
   &__img {
@@ -85,11 +94,18 @@ a {
     height: 300px;
     margin-inline: auto;
     margin-bottom: 48px;
-    background-color: #fff;
+
+    // background-color: #fff;
+
+    &-p {
+      width: 250px;
+      height: 300px;
+      border-radius: 8px;
+    }
   }
 
   &__sns-collection {
-    margin-block: 18px 32px;
+    margin-block: 18px 96px;
     margin-inline: auto;
   }
 

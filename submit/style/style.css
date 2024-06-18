@@ -56,47 +56,26 @@ a {
 }
 
 .main__text-collection {
-  margin-block: 64px 128px;
   margin-inline: auto;
+  margin-bottom: 64px;
 }
 .main__title {
-  margin-bottom: 72px;
+  margin-bottom: 12px;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
   cursor: default;
 }
 .main__text {
-  margin-bottom: 12px;
+  margin-bottom: 36px;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   cursor: default;
 }
-.main__search-collection {
-  padding-inline: 48px;
-  margin-top: 48px;
-}
-.main__searching {
+.main__button {
   display: block;
-  width: 40%;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
-  margin-bottom: 14px;
-}
-.main__searching-m {
-  display: block;
-  width: 40%;
-  height: 240px;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
-  margin-bottom: 14px;
-}
-.main__submit {
-  display: block;
-  width: 100px;
+  width: 150px;
   padding-block: 8px;
   padding-inline: 16px;
   margin-inline: auto;
@@ -107,10 +86,15 @@ a {
   border-radius: 4px;
   transition: all 300ms ease-out;
 }
-.main__submit:hover {
+.main__button:hover {
   color: #fff;
   cursor: pointer;
   background-color: #7da8c7;
+}
+
+.lottie {
+  display: block;
+  margin-inline: auto;
 }
 
 .footer {

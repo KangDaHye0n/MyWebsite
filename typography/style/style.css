@@ -16,6 +16,10 @@ a {
   text-decoration: inherit;
 }
 
+img {
+  display: block;
+}
+
 .navigation {
   padding-block: 16px;
   padding-inline: 48px;
@@ -55,62 +59,66 @@ a {
   border-radius: 8px;
 }
 
+.main {
+  margin-bottom: 96px;
+}
 .main__text-collection {
-  margin-block: 64px 128px;
+  margin-block: 48px 72px;
   margin-inline: auto;
 }
 .main__title {
-  margin-bottom: 72px;
   font-size: 36px;
   font-weight: 700;
   text-align: center;
   cursor: default;
 }
-.main__text {
-  margin-bottom: 12px;
+.main__card {
+  padding-inline: 24px;
+  margin-bottom: 56px;
+}
+.main__card--img {
+  max-height: 350px;
+  margin-inline: auto;
+  margin-bottom: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main__card--img-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  padding-inline: 24px;
+}
+.main__card--img-1 {
+  max-height: 350px;
+  aspect-ratio: 2/3;
+  margin-inline: auto;
+  margin-bottom: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main__card--img-2 {
+  max-height: 350px;
+  aspect-ratio: 5/4;
+  margin-inline: auto;
+  margin-bottom: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main__card--img-3 {
+  max-height: 250px;
+  aspect-ratio: 4/3;
+  margin-inline: auto;
+  margin-bottom: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main__card--text {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
   cursor: default;
-}
-.main__search-collection {
-  padding-inline: 48px;
-  margin-top: 48px;
-}
-.main__searching {
-  display: block;
-  width: 40%;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
-  margin-bottom: 14px;
-}
-.main__searching-m {
-  display: block;
-  width: 40%;
-  height: 240px;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
-  margin-bottom: 14px;
-}
-.main__submit {
-  display: block;
-  width: 100px;
-  padding-block: 8px;
-  padding-inline: 16px;
-  margin-inline: auto;
-  font-size: 14px;
-  font-weight: 600;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 4px;
-  transition: all 300ms ease-out;
-}
-.main__submit:hover {
-  color: #fff;
-  cursor: pointer;
-  background-color: #7da8c7;
 }
 
 .footer {
