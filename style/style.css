@@ -76,6 +76,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 28px 24px;
   padding-inline: 96px;
+  margin-inline: auto;
   margin-bottom: 96px;
 }
 .main__card {
