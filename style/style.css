@@ -71,6 +71,19 @@ a {
   text-align: center;
   cursor: default;
 }
+.main__card {
+  position: relative;
+  display: block;
+  min-width: 320px;
+  max-width: 320px;
+  height: 480px;
+  margin-inline: auto;
+  margin-bottom: 48px;
+  background-color: #fff;
+  filter: brightness(1);
+  border-radius: 8px;
+  transition: all 300ms ease-out;
+}
 .main__card-collection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -79,19 +92,11 @@ a {
   margin-inline: auto;
   margin-bottom: 96px;
 }
-.main__card {
-  position: relative;
-  max-width: 320px;
-  height: 480px;
-  background-color: #fff;
-  filter: brightness(1);
-  border-radius: 8px;
-  transition: all 300ms ease-out;
-}
 .main__card--img {
   position: absolute;
   bottom: 0;
   left: 0;
+  display: block;
 }
 .main__card--img img {
   max-width: 100%;
