@@ -67,7 +67,7 @@ a {
 }
 .main__card {
   padding-inline: 36px;
-  margin-bottom: 56px;
+  margin-bottom: 84px;
 }
 .main__card--img-1 {
   display: block;
@@ -94,6 +94,13 @@ a {
   display: block;
   height: 450px;
   aspect-ratio: 4/5;
+  margin-inline: auto;
+  margin-bottom: 18px;
+}
+.main__card--img-5 {
+  display: block;
+  height: 450px;
+  aspect-ratio: 2/3;
   margin-inline: auto;
   margin-bottom: 18px;
 }
