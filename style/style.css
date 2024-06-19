@@ -74,12 +74,13 @@ a {
 .main__card-collection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px 28px;
+  gap: 28px 24px;
   padding-inline: 96px;
   margin-bottom: 96px;
 }
 .main__card {
   position: relative;
+  max-width: 320px;
   height: 480px;
   background-color: #fff;
   filter: brightness(1);
@@ -90,7 +91,6 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
-  display: block;
 }
 .main__card--img img {
   max-width: 100%;
