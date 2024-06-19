@@ -85,6 +85,15 @@ a {
       margin-inline: auto;
       margin-bottom: 18px;
       border: 3px solid #fff;
+
+      &-d {
+        display: block;
+        height: 250px;
+        aspect-ratio: 3/2;
+        margin-inline: auto;
+        margin-bottom: 18px;
+        border: 3px solid #fff;
+      }
     }
 
     &--text {
@@ -99,7 +108,7 @@ a {
         padding-block: 8px;
         padding-inline: 16px;
         margin-inline: auto;
-        margin-bottom: 24px;
+        margin-bottom: 36px;
         font-size: 14px;
         font-weight: 600;
         text-align: center;

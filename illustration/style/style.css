@@ -65,6 +65,38 @@ a {
   text-align: center;
   cursor: default;
 }
+.main__card {
+  padding-inline: 36px;
+  margin-bottom: 56px;
+}
+.main__card--img-1 {
+  display: block;
+  height: 450px;
+  aspect-ratio: 3/4;
+  margin-inline: auto;
+  margin-bottom: 18px;
+}
+.main__card--img-2 {
+  display: block;
+  height: 450px;
+  aspect-ratio: 3/4;
+  margin-inline: auto;
+  margin-bottom: 18px;
+}
+.main__card--img-3 {
+  display: block;
+  height: 450px;
+  aspect-ratio: 2/3;
+  margin-inline: auto;
+  margin-bottom: 18px;
+}
+.main__card--img-4 {
+  display: block;
+  height: 450px;
+  aspect-ratio: 4/5;
+  margin-inline: auto;
+  margin-bottom: 18px;
+}
 .main__card--text {
   font-size: 20px;
   font-weight: 600;
